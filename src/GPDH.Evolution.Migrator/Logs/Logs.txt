@@ -1,0 +1,79 @@
+﻿DEBUG 2018-07-21 12:07:14,227 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-21 12:07:14,403 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-07-21 12:07:14,947 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Migrator.EvolutionMigratorModule, GPDH.Evolution.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,952 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,953 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,954 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,955 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:14,959 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-07-21 12:07:15,547 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:07:16,809 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-21 12:07:17,083 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-21 12:07:17,518 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-21 12:07:17,726 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+INFO  2018-07-21 12:07:18,057 [1    ] GPDH.Evolution.Migrator.Log              - Host database: server=localhost;database=EvolutionDb;trusted_connection=True
+INFO  2018-07-21 12:07:18,057 [1    ] GPDH.Evolution.Migrator.Log              - Continue to migration for this host database and all tenants..? (Y/N): 
+DEBUG 2018-07-21 12:19:33,763 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-21 12:19:33,946 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-07-21 12:19:34,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Migrator.EvolutionMigratorModule, GPDH.Evolution.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,506 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:34,511 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-07-21 12:19:35,088 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:19:36,354 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-21 12:19:36,634 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-21 12:19:37,065 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-21 12:19:37,270 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+INFO  2018-07-21 12:19:37,577 [1    ] GPDH.Evolution.Migrator.Log              - Host database: server=localhost;database=EvolutionDb;uid=*****;pwd=*****
+INFO  2018-07-21 12:19:37,577 [1    ] GPDH.Evolution.Migrator.Log              - Continue to migration for this host database and all tenants..? (Y/N): 
+DEBUG 2018-07-21 12:23:05,348 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-21 12:23:05,405 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-07-21 12:23:05,635 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Migrator.EvolutionMigratorModule, GPDH.Evolution.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,641 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,642 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,643 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,644 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:05,649 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-07-21 12:23:05,968 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 12:23:06,513 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-21 12:23:06,803 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-21 12:23:07,254 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-21 12:23:07,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+INFO  2018-07-21 12:23:07,664 [1    ] GPDH.Evolution.Migrator.Log              - Host database: server=localhost;database=EvolutionDb;uid=*****;pwd=*****
+INFO  2018-07-21 12:23:07,664 [1    ] GPDH.Evolution.Migrator.Log              - Continue to migration for this host database and all tenants..? (Y/N): 
+INFO  2018-07-21 12:33:45,220 [1    ] GPDH.Evolution.Migrator.Log              - Migration canceled.
+DEBUG 2018-07-21 12:33:45,222 [1    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2018-07-21 12:33:45,223 [1    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2018-07-21 17:23:16,641 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-21 17:23:16,817 [1    ] Abp.Modules.AbpModuleManager             - Found 9 ABP modules in total.
+DEBUG 2018-07-21 17:23:17,445 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Migrator.EvolutionMigratorModule, GPDH.Evolution.Migrator, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,453 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,454 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,455 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,456 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,457 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:17,461 [1    ] Abp.Modules.AbpModuleManager             - 9 modules loaded.
+DEBUG 2018-07-21 17:23:18,167 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-21 17:23:19,640 [1    ] Abp.Localization.LocalizationManager     - Initializing 3 localization sources.
+DEBUG 2018-07-21 17:23:19,959 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-21 17:23:20,604 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-21 17:23:20,820 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+INFO  2018-07-21 17:23:21,467 [1    ] GPDH.Evolution.Migrator.Log              - Host database: server=localhost;database=EvolutionDb;uid=*****;pwd=*****
+INFO  2018-07-21 17:23:21,467 [1    ] GPDH.Evolution.Migrator.Log              - Continue to migration for this host database and all tenants..? (Y/N): 

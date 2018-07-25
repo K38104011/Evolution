@@ -3010,3 +3010,317 @@ INFO  2018-07-22 10:44:28,487 [25   ] ore.Mvc.Internal.ControllerActionInvoker -
 INFO  2018-07-22 10:44:28,488 [25   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 326.597ms 200 application/json; charset=utf-8
 DEBUG 2018-07-22 10:45:12,723 [24   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: XYMLl7_PN0DTiG1uetxLWA
 INFO  2018-07-22 10:45:12,746 [24   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 50081.98ms 101 
+DEBUG 2018-07-25 20:50:36,779 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-25 20:50:36,810 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-25 20:50:36,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Web.Host.Startup.EvolutionWebHostModule, GPDH.Evolution.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionWebCoreModule, GPDH.Evolution.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,835 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionApplicationModule, GPDH.Evolution.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,836 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,837 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,838 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,839 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,840 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,841 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:36,845 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-25 20:50:36,927 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:50:36,928 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:50:36,928 [1    ] o.Configuration.LanguageManagementConfig - Converted Evolution (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:50:36,928 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:50:37,324 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:50:37,886 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-25 20:50:38,212 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-25 20:50:38,625 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-25 20:50:38,808 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+DEBUG 2018-07-25 20:50:39,057 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-25 20:50:39,096 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-25 20:50:39,151 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-07-25 20:50:39,152 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-25 20:50:39,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Users.Dto.CreateUserDto
+DEBUG 2018-07-25 20:50:39,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Users.Dto.UserDto
+DEBUG 2018-07-25 20:50:39,156 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Application.Tasks.Dto.TaskListDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.PermissionDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.RoleDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-25 20:50:39,157 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.MultiTenancy.Dto.TenantDto
+FATAL 2018-07-25 20:50:43,037 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Application startup exception
+System.InvalidOperationException: Unable to find the required services. Please add all the required services by calling 'IServiceCollection.AddHangfire' inside the call to 'ConfigureServices(...)' in the application startup code.
+   at Hangfire.HangfireApplicationBuilderExtensions.ThrowIfNotConfigured(IApplicationBuilder app)
+   at Hangfire.HangfireApplicationBuilderExtensions.UseHangfireServer(IApplicationBuilder app, BackgroundJobServerOptions options, IEnumerable`1 additionalProcesses, JobStorage storage)
+   at GPDH.Evolution.Web.Host.Startup.Startup.Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory) in /Users/giang/Documents/3.9.0/src/GPDH.Evolution.Web.Host/Startup/Startup.cs:line 110
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Hosting.ConventionBasedStartup.Configure(IApplicationBuilder app)
+   at Microsoft.AspNetCore.Hosting.Internal.WebHost.BuildApplication()
+DEBUG 2018-07-25 20:53:37,689 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2018-07-25 20:53:37,731 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2018-07-25 20:53:37,754 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.Web.Host.Startup.EvolutionWebHostModule, GPDH.Evolution.Web.Host, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionWebCoreModule, GPDH.Evolution.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionApplicationModule, GPDH.Evolution.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,758 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EvolutionCoreModule, GPDH.Evolution.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,759 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=3.8.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,760 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: GPDH.Evolution.EntityFrameworkCore.EvolutionEntityFrameworkModule, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,761 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,762 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,763 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.SignalR.AbpAspNetCoreSignalRModule, Abp.AspNetCore.SignalR, Version=3.7.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:37,767 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2018-07-25 20:53:37,875 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:53:37,876 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:53:37,876 [1    ] o.Configuration.LanguageManagementConfig - Converted Evolution (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:53:37,876 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2018-07-25 20:53:38,257 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: GPDH.Evolution.EntityFrameworkCore.EvolutionDbContext, GPDH.Evolution.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2018-07-25 20:53:38,845 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2018-07-25 20:53:39,140 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2018-07-25 20:53:39,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2018-07-25 20:53:39,727 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Evolution
+DEBUG 2018-07-25 20:53:39,992 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2018-07-25 20:53:40,036 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2018-07-25 20:53:40,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2018-07-25 20:53:40,098 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2018-07-25 20:53:40,104 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Users.Dto.CreateUserDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Users.Dto.UserDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Application.Tasks.Dto.TaskListDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Sessions.Dto.UserLoginInfoDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.CreateRoleDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.PermissionDto
+DEBUG 2018-07-25 20:53:40,105 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.Roles.Dto.RoleDto
+DEBUG 2018-07-25 20:53:40,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2018-07-25 20:53:40,106 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - GPDH.Evolution.MultiTenancy.Dto.TenantDto
+INFO  2018-07-25 20:53:44,560 [1    ] Hangfire.MySql.MySqlStorage              - DB tables already exist. Exit install
+INFO  2018-07-25 20:53:44,587 [1    ] Hangfire.BackgroundJobServer             - Starting Hangfire Server
+INFO  2018-07-25 20:53:44,591 [1    ] Hangfire.BackgroundJobServer             - Using job storage: 'Server: localhost@HangfireDb'
+INFO  2018-07-25 20:53:44,591 [1    ] Hangfire.BackgroundJobServer             - Using the following options for SQL Server job storage:
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             -     Queue poll interval: 00:00:15.
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             - Using the following options for Hangfire Server:
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             -     Worker count: 20
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             -     Listening queues: 'default'
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             -     Shutdown timeout: 00:00:15
+INFO  2018-07-25 20:53:44,592 [1    ] Hangfire.BackgroundJobServer             -     Schedule polling interval: 00:00:15
+INFO  2018-07-25 20:53:53,237 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-07-25 20:53:53,964 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 734.076ms 404 
+INFO  2018-07-25 20:54:00,905 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/  
+INFO  2018-07-25 20:54:00,907 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.11ms 404 
+INFO  2018-07-25 20:54:06,319 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger  
+INFO  2018-07-25 20:54:06,330 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.975ms 301 
+INFO  2018-07-25 20:54:06,362 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html  
+INFO  2018-07-25 20:54:06,397 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.076ms 200 text/html
+INFO  2018-07-25 20:54:06,433 [42   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js  
+INFO  2018-07-25 20:54:06,439 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.js  
+INFO  2018-07-25 20:54:06,443 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/ui/abp.swagger.js  
+INFO  2018-07-25 20:54:06,444 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js  
+INFO  2018-07-25 20:54:06,480 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.swagger.js was not modified
+INFO  2018-07-25 20:54:06,480 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger/ui/abp.js was not modified
+INFO  2018-07-25 20:54:06,486 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 42.861ms 304 application/javascript
+INFO  2018-07-25 20:54:06,487 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css  
+INFO  2018-07-25 20:54:06,487 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 48.924ms 304 application/javascript
+INFO  2018-07-25 20:54:06,489 [5    ] NetCore.StaticFiles.StaticFileMiddleware - The file /swagger-ui.css was not modified
+INFO  2018-07-25 20:54:06,489 [5    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.226ms 304 text/css
+INFO  2018-07-25 20:54:06,547 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+INFO  2018-07-25 20:54:06,564 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 119.836ms 200 application/javascript
+INFO  2018-07-25 20:54:06,614 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+INFO  2018-07-25 20:54:06,614 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 180.638ms 200 application/javascript
+INFO  2018-07-25 20:54:07,038 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json  
+INFO  2018-07-25 20:54:07,046 [4    ] uthentication.JwtBearer.JwtBearerHandler - JwtBearer was not authenticated. Failure message: No SecurityTokenValidator available for token: null
+INFO  2018-07-25 20:54:07,535 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 497.022ms 200 application/json;charset=utf-8
+INFO  2018-07-25 20:54:33,646 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard  
+INFO  2018-07-25 20:54:33,780 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 134.194ms 200 text/html
+INFO  2018-07-25 20:54:33,797 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard/css1619  
+INFO  2018-07-25 20:54:33,815 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard/js1619  
+INFO  2018-07-25 20:54:33,832 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 35.839ms 200 text/css
+INFO  2018-07-25 20:54:33,869 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 53.171ms 200 application/javascript
+INFO  2018-07-25 20:54:33,921 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard/fonts/glyphicons-halflings-regular/woff2  
+INFO  2018-07-25 20:54:33,930 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:33,931 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:33,939 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.494ms 200 font/woff2
+INFO  2018-07-25 20:54:34,188 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/favicon.ico  
+INFO  2018-07-25 20:54:34,189 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.435ms 404 
+INFO  2018-07-25 20:54:36,167 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:36,168 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:36,168 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:36,330 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 162.772ms 200 application/json
+INFO  2018-07-25 20:54:38,167 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:38,167 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:38,167 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:38,175 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.654ms 200 application/json
+INFO  2018-07-25 20:54:38,242 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard/servers  
+INFO  2018-07-25 20:54:38,396 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 154.19ms 200 text/html
+INFO  2018-07-25 20:54:40,513 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2018-07-25 20:54:40,513 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:40,513 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:40,521 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.562ms 200 application/json
+INFO  2018-07-25 20:54:42,508 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2018-07-25 20:54:42,508 [11   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:42,508 [11   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:42,517 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.843ms 200 application/json
+INFO  2018-07-25 20:54:44,507 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2018-07-25 20:54:44,507 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:44,507 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:44,516 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.945ms 200 application/json
+INFO  2018-07-25 20:54:46,510 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 167
+INFO  2018-07-25 20:54:46,510 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:46,510 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:46,518 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.915ms 200 application/json
+INFO  2018-07-25 20:54:46,648 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/dashboard/  
+INFO  2018-07-25 20:54:46,665 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.526ms 200 text/html
+INFO  2018-07-25 20:54:48,815 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:48,816 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:48,816 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:48,827 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.583ms 200 application/json
+INFO  2018-07-25 20:54:50,892 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:50,892 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:50,892 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:50,900 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.805ms 200 application/json
+INFO  2018-07-25 20:54:53,195 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:53,196 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:53,196 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:53,205 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.127ms 200 application/json
+INFO  2018-07-25 20:54:55,133 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:55,133 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:55,134 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:55,141 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.804ms 200 application/json
+INFO  2018-07-25 20:54:56,844 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:56,844 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:56,844 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:56,853 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.505ms 200 application/json
+INFO  2018-07-25 20:54:58,919 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:54:58,919 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:54:58,919 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:54:58,927 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.798ms 200 application/json
+INFO  2018-07-25 20:55:00,846 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:00,846 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:00,846 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:00,857 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.699ms 200 application/json
+INFO  2018-07-25 20:55:03,731 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:03,731 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:03,731 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:03,745 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.902ms 200 application/json
+INFO  2018-07-25 20:55:05,308 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:05,308 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:05,308 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:05,317 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.108ms 200 application/json
+INFO  2018-07-25 20:55:07,213 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:07,214 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:07,214 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:07,227 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.442ms 200 application/json
+INFO  2018-07-25 20:55:09,440 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:09,440 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:09,440 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:09,453 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.655ms 200 application/json
+INFO  2018-07-25 20:55:10,997 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:10,997 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:10,997 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:11,007 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.023ms 200 application/json
+INFO  2018-07-25 20:55:12,843 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:12,843 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:12,843 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:12,852 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.048ms 200 application/json
+INFO  2018-07-25 20:55:14,837 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:14,837 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:14,837 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:14,844 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.981ms 200 application/json
+INFO  2018-07-25 20:55:16,838 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:16,839 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:16,839 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:16,846 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.088ms 200 application/json
+INFO  2018-07-25 20:55:18,843 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:18,844 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:18,844 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:18,858 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.898ms 200 application/json
+INFO  2018-07-25 20:55:20,841 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:20,841 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:20,841 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:20,850 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.344ms 200 application/json
+INFO  2018-07-25 20:55:22,839 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:22,839 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:22,839 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:22,846 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.117ms 200 application/json
+INFO  2018-07-25 20:55:24,839 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:24,839 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:24,839 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:24,847 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.485ms 200 application/json
+INFO  2018-07-25 20:55:26,840 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:26,840 [47   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:26,840 [47   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:26,848 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.596ms 200 application/json
+INFO  2018-07-25 20:55:28,840 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:28,840 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:28,841 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:28,848 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.288ms 200 application/json
+INFO  2018-07-25 20:55:30,846 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:30,846 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:30,846 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:30,854 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.228ms 200 application/json
+INFO  2018-07-25 20:55:32,839 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:32,839 [47   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:32,839 [47   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:32,847 [47   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.432ms 200 application/json
+INFO  2018-07-25 20:55:35,049 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:35,049 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:35,049 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:35,056 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.216ms 200 application/json
+INFO  2018-07-25 20:55:36,844 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:36,845 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:36,845 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:36,851 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.861ms 200 application/json
+INFO  2018-07-25 20:55:39,623 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:39,623 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:39,623 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:39,630 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.275ms 200 application/json
+INFO  2018-07-25 20:55:40,841 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:40,841 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:40,841 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:40,849 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.127ms 200 application/json
+INFO  2018-07-25 20:55:42,937 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:42,937 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:42,937 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:42,945 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.041ms 200 application/json
+INFO  2018-07-25 20:55:44,844 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:44,844 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:44,845 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:44,851 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.276ms 200 application/json
+INFO  2018-07-25 20:55:46,838 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:46,838 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:46,838 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:46,845 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.498ms 200 application/json
+INFO  2018-07-25 20:55:49,011 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:49,011 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:49,011 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:49,027 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.461ms 200 application/json
+INFO  2018-07-25 20:55:50,962 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:50,962 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:50,962 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:50,968 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.202ms 200 application/json
+INFO  2018-07-25 20:55:53,673 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:53,673 [43   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:53,673 [43   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:53,680 [43   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.327ms 200 application/json
+INFO  2018-07-25 20:55:55,309 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:55,309 [4    ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:55,309 [4    ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:55,316 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.785ms 200 application/json
+INFO  2018-07-25 20:55:57,305 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:57,307 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:57,307 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:57,315 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 10.429ms 200 application/json
+INFO  2018-07-25 20:55:58,843 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:55:58,843 [45   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:55:58,843 [45   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:55:58,858 [45   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.405ms 200 application/json
+INFO  2018-07-25 20:56:00,814 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:5000/dashboard/stats application/x-www-form-urlencoded; charset=UTF-8 228
+INFO  2018-07-25 20:56:00,814 [46   ] pNetCore.Cors.Infrastructure.CorsService - Policy execution failed.
+INFO  2018-07-25 20:56:00,814 [46   ] pNetCore.Cors.Infrastructure.CorsService - Request origin http://localhost:5000 does not have permission to access the resource.
+INFO  2018-07-25 20:56:00,821 [46   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 7.395ms 200 application/json

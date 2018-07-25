@@ -1,5 +1,5 @@
 using System.IO;
-﻿using System;
+using System;
 using System.Linq;
 using System.Reflection;
 using Microsoft.AspNetCore.Builder;
@@ -18,6 +18,8 @@ using GPDH.Evolution.Configuration;
 using GPDH.Evolution.Identity;
 
 using Abp.AspNetCore.SignalR.Hubs;
+using Hangfire;
+using Hangfire.MySql;
 
 namespace GPDH.Evolution.Web.Host.Startup
 {
@@ -80,6 +82,9 @@ namespace GPDH.Evolution.Web.Host.Startup
                 options.OperationFilter<SecurityRequirementsOperationFilter>();
             });
 
+            services.AddHangfire(config => config.UseStorage(
+                new MySqlStorage(_appConfiguration.GetConnectionString("Hangfire"))));
+
             // Configure Abp and Dependency Injection
             return services.AddAbp<EvolutionWebHostModule>(
                 // Configure Log4Net logging
@@ -95,13 +100,16 @@ namespace GPDH.Evolution.Web.Host.Startup
 
             app.UseCors(_defaultCorsPolicyName); // Enable CORS!
 
-app.Use(async (context, next) =>                {                    await next();                    if (context.Response.StatusCode == 404                        && !Path.HasExtension(context.Request.Path.Value))                    {                        context.Request.Path = "/index.html";                        await next();                    }                });
+            app.Use(async (context, next) => { await next(); if (context.Response.StatusCode == 404 && !Path.HasExtension(context.Request.Path.Value)) { context.Request.Path = "/index.html"; await next(); } });
             app.UseStaticFiles();
 
             app.UseAuthentication();
 
             app.UseAbpRequestLocalization();
 
+            app.UseHangfireServer();
+
+            app.UseHangfireDashboard("/dashboard");
 
             app.UseSignalR(routes =>
             {

@@ -28,6 +28,8 @@
     <ProjectReference Include="..\GPDH.Evolution.Web.Core\GPDH.Evolution.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Abp.HangFire.AspNetCore" Version="3.8.0" />
+    <PackageReference Include="Hangfire.MySql.NetCore" Version="1.0.7" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.0">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
@@ -69,7 +71,7 @@
     <Exec Command="robocopy $(MSBuildProjectDirectory)\wwwroot\dist\ $(MSBuildProjectDirectory)\wwwroot\ /S /E /MOVE" IgnoreExitCode="True" />
     <ItemGroup>
       <DistFiles Include="wwwroot\**\*" />
-      <ResolvedFileToPublish Include="@(DistFiles-&gt;'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
+      <ResolvedFileToPublish Include="@(DistFiles->'%(FullPath)')" Exclude="@(ResolvedFileToPublish)">
         <RelativePath>%(DistFiles.Identity)</RelativePath>
         <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       </ResolvedFileToPublish>
